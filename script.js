@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
    // check if taskText is not empty
     if (taskText !== ''){
       //create a new li element
-    const newTask = document.createElement('li');
+    const newTask = classList.add('li');
     newTask.textContent = taskText;
 
        // create a remove button
